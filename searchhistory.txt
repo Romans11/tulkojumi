@@ -1,0 +1,6 @@
+06-01-2015 20:15:32	Teksts: qwert	Valoda: a	Tips: auto
+06-01-2015 20:15:41	Teksts: sve	Valoda: a	Tips: auto
+06-01-2015 20:15:45	Teksts: hel	Valoda: a	Tips: auto
+06-01-2015 20:15:48	Teksts: hn	Valoda: a	Tips: auto
+06-01-2015 20:15:52	Teksts: a	Valoda: a	Tips: auto
+06-01-2015 20:15:53	Teksts: e	Valoda: a	Tips: auto
