@@ -43,6 +43,7 @@ $c=$row['i'];
 }
 echo "</table><br/>";
 mysql_close($db_con);
+echo("<a href=\"../edit?id=$id\">Labot šo tulkojumu</a><br/><br/>");
 if (strlen($c)==0){
 echo("Šis tulkojums nav nevienā kategorijā.");
 Exit();
