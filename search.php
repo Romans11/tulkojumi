@@ -76,20 +76,7 @@ document.meklesana.mekl.value=car;
 <input type="button" value="|" onclick="alpha(&#39;|&#39;)"/>
 <input type="button" value="\" onclick="alpha(&#39;\\&#39;)"/>
 <br/>
-<?php
-function curPageURL() {
- $pageURL = 'http';
- if ($_SERVER["HTTPS"] == "on") {$pageURL .= "s";}
- $pageURL .= "://";
- if ($_SERVER["SERVER_PORT"] != "80") {
-  $pageURL .= $_SERVER["SERVER_NAME"].":".$_SERVER["SERVER_PORT"].$_SERVER["REQUEST_URI"];
- } else {
-  $pageURL .= $_SERVER["SERVER_NAME"].$_SERVER["REQUEST_URI"];
- }
- return $pageURL;
-}
-echo ('<br/>Vairāk: <a href="table.php">Visi tulkojumi</a></a><br/>');
-?>
+<br/>Vairāk: <a href="table">Visi tulkojumi</a></a><br/>
 <br/>
 <input type = "submit" value = "Meklēt" name = "meklet" style="width: 100px ; height: 40px"><br/><br/>
 </form>

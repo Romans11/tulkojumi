@@ -27,4 +27,6 @@ echo("<br/>Tulkojumu skaits: $skaits");
 mysql_close($db_con);
 
 ?>
+<br/><br/>
+Vairāk: <a href="search">Meklēt tulkojumus</a>
 </body></html>
