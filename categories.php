@@ -3,9 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <style>
-.t_tabula{
-text-align:right;
-}
+.t_tabula{text-align:right;}
 </style>
 <title>Tulkojumu kategorijas</title>
 </head>
@@ -43,40 +41,40 @@ Izvēlieties kategoriju:<br/>
 </form>
 <?php
 $db_con = mysql_connect('localhost','root','1500447707');
-if (!isset($db_con)){
-alert("Error: connection failed!");
-Exit();
+if (!isset($db_con))
+{
+	alert("Error: connection failed!");
+	Exit();
 }
 mysql_select_db('tulkojumi',$db_con);
 mysql_query("ALTER DATABASE tulkojumi CHARACTER SET utf8;");
 mysql_query("SET NAMES utf8");
 mysql_query("SET CHARACTER SET utf8");
 
-if (isset($_POST['kategorijas'])){
-$kat=$_POST['kategorijas'];
-$result = mysql_query("SELECT * FROM vardi where kat like '%$kat%'");
+if (isset($_POST['kategorijas']))
+{
+	$kat=$_POST['kategorijas'];
+	$result = mysql_query("SELECT * FROM vardi where kat like '%$kat%'");
 }
 else
 {
-Exit();
+	Exit();
 }
 
 $skaits=0;
 while($row = mysql_fetch_array($result))
 {
-$skaits=$skaits+1;
-if ($skaits==1)
-echo "<table border='1' width='1250'><tr><th>Latviešu</th><th>English</th><th>Русский</th></tr>";
-echo "<tr><td><a href=info/?id=" . $row['id'] . ">" . $row['lv'] . "</a></td><td>" . $row['en'] . "</td><td>" . $row['ru'] . "</td></tr>";
+	$skaits=$skaits+1;
+	if ($skaits==1)
+	echo "<table border='1' width='1250'><tr><th>Latviešu</th><th>English</th><th>Русский</th></tr>";
+	echo "<tr><td><a href=info/?id=" . $row['id'] . ">" . $row['lv'] . "</a></td><td>" . $row['en'] . "</td><td>" . $row['ru'] . "</td></tr>";
 }
 if($skaits>0)
 echo "</table>";
-if ($skaits==0){
-echo("<br/>Nekas nav atrasts.");
-}
-if ($skaits==1){
-echo("<br/>Atrasts 1 rezultāts.");
-}
+if ($skaits==0)
+	echo("<br/>Nekas nav atrasts.");
+if ($skaits==1)
+	echo("<br/>Atrasts 1 rezultāts.");
 else
 if ($skaits>0)
 echo("<br/>Atrasti $skaits rezultāti.");

@@ -50,3 +50,16 @@
 09-01-2015 20:28:54	Teksts: 	Valoda: 	Tips: 
 09-01-2015 20:28:57	Teksts: 	Valoda: 	Tips: 
 09-01-2015 20:28:59	Teksts: 	Valoda: 	Tips: 
+09-01-2015 20:39:57	Teksts: 	Valoda: 	Tips: 
+09-01-2015 20:40:00	Teksts: 	Valoda: 	Tips: 
+09-01-2015 20:40:02	Teksts: 	Valoda: 	Tips: 
+09-01-2015 20:40:04	Teksts: 	Valoda: 	Tips: 
+09-01-2015 20:40:07	Teksts: 	Valoda: 	Tips: 
+09-01-2015 20:40:09	Teksts: 	Valoda: 	Tips: 
+09-01-2015 20:40:11	Teksts: 	Valoda: 	Tips: 
+09-01-2015 20:40:14	Teksts: 	Valoda: 	Tips: 
+09-01-2015 20:40:16	Teksts: 	Valoda: 	Tips: 
+09-01-2015 20:40:19	Teksts: 	Valoda: 	Tips: 
+09-01-2015 20:40:21	Teksts: 	Valoda: 	Tips: 
+09-01-2015 20:50:56	Teksts: a	Valoda: a	Tips: auto
+09-01-2015 20:53:15	Teksts: [td]smit	Valoda: a	Tips: regex

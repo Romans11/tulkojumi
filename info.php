@@ -3,9 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <style>
-.t_tabula{
-text-align:right;
-}
+.t_tabula{text-align:right;}
 </style>
 <title>Informācija par tulkojumu</title>
 </head>
@@ -14,14 +12,14 @@ text-align:right;
 <?php
 $eid="";
 $eid=strval($_GET['id']);
-if ($eid==""){
-Exit();
-}
+if ($eid=="")
+	Exit();
 $result="";
 $db_con = mysql_connect('localhost','root','1500447707');
-if (!isset($db_con)){
-alert("Kļūda: Neizdodas savienoties!");
-Exit();
+if (!isset($db_con))
+{
+	alert("Kļūda: Neizdodas savienoties!");
+	Exit();
 }
 $teksts="";
 mysql_select_db('tulkojumi',$db_con);
@@ -29,24 +27,26 @@ mysql_query("ALTER DATABASE tulkojumi CHARACTER SET utf8;");
 mysql_query("SET NAMES utf8");
 mysql_query("SET CHARACTER SET utf8");
 $result = mysql_query("SELECT * FROM vardi where id = $eid");
-if ($result==""){
-echo ("");
-Exit();
+if ($result=="")
+{
+	echo ("");
+	Exit();
 }
 $c="";
 while($row = mysql_fetch_array($result))
 {
-echo("<big><b><span title=Latviešu>Latviešu</span></b>: ".$row['lv']."<br/>");
-echo("<b><span title=English>Angļu</span></b>: ".$row['en']."<br/>");
-echo("<b><span title=Русский>Krievu</span></b>: ".$row['ru']."<br/>");
-$c=$row['i'];
+	echo("<big><b><span title=Latviešu>Latviešu</span></b>: ".$row['lv']."<br/>");
+	echo("<b><span title=English>Angļu</span></b>: ".$row['en']."<br/>");
+	echo("<b><span title=Русский>Krievu</span></b>: ".$row['ru']."<br/>");
+	$c=$row['i'];
 }
 echo "</table><br/>";
 mysql_close($db_con);
 echo("<a href=\"../edit?id=$id\">Labot šo tulkojumu</a><br/><br/>");
-if (strlen($c)==0){
-echo("Šis tulkojums nav nevienā kategorijā.");
-Exit();
+if (strlen($c)==0)
+{
+	echo("Šis tulkojums nav nevienā kategorijā.");
+	Exit();
 }
 echo("<br/><h2>Kategorijas</h2><big>");
 function nosen($k)
@@ -103,31 +103,27 @@ if ($k==".o") $k="Формальный разговор";
 if ($k==".c") $k="Неформальный разговор";
 return $k;
 }
-if (strlen($c)==2){
-echo ("<table border=0><tr><td><b>Latviešu</b></td><td>" . noslv($c) . "</td></tr>");
-echo ("<tr><td><b>English</b></td><td>" . nosen($c) . "</td></tr>");
-echo ("<tr><td><b>Русский</b></td><td>" . nosru($c) . "</td></tr></table></big>");
-Exit();
+if (strlen($c)==2)
+{
+	echo ("<table border=0><tr><td><b>Latviešu</b></td><td>" . noslv($c) . "</td></tr>");
+	echo ("<tr><td><b>English</b></td><td>" . nosen($c) . "</td></tr>");
+	echo ("<tr><td><b>Русский</b></td><td>" . nosru($c) . "</td></tr></table></big>");
+	Exit();
 }
 if (strlen($c)==4){
-
-Exit();
+	Exit();
 }
 if (strlen($c)==6){
-
-Exit();
+	Exit();
 }
 if (strlen($c)==8){
-
-Exit();
+	Exit();
 }
 if (strlen($c)==10){
-
-Exit();
+	Exit();
 }
 if (strlen($c)==12){
-
-Exit();
+	Exit();
 }
 ?>
 </body>
