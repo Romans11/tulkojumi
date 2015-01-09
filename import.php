@@ -17,7 +17,7 @@ text-align:right;
 Pievienošanas kārtība: 1) LV ; 2) EN ; 3) RU ; 4) Kategorija ; 5) Tukša rinda<br/><br/>
 <textarea name="tulkojums" rows=25 cols=150></textarea><br/>
 <center><input type = "submit" value = "Pievienot" name = "saglabat" style="width: 100px ; height: 50px"><br/><br/><br/>
-Vairāk: <a href="all">Visi tulkojumi</a></center>
+Vairāk: <a href="all">Visi tulkojumi</a> | <a href="search">Meklēt tulkojumus</a></center>
 </form>
 </div>
 <?php
