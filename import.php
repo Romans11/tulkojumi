@@ -1,3 +1,12 @@
+<?php
+include_once 'includes/db_connect.php';
+include_once 'includes/functions.php';
+sec_session_start();
+?>
+<?php
+if(login_check($mysqli) == true)
+{
+echo <<< EOT
 <!DOCTYPE html>
 <html>
 <head>
@@ -17,47 +26,53 @@
 	Vairāk: <a href="all">Visi tulkojumi</a> | <a href="search">Meklēt tulkojumus</a></center>
 </form>
 </div>
-<?php
-if(isset($_POST["saglabat"]))
-{
-	$tteksts=$_POST["tulkojums"];
-	$tskaits=substr_count($tteksts,"\n");
-	$sk=0;
-	$db_con = mysql_connect('localhost','root','1500447707');
-	if (!isset($db_con))
+EOT;
+	if(isset($_POST["saglabat"]))
 	{
-		alert("Kļūda: Neizdodas savienoties ar datubāzi!");
-		Exit();
-	}
-	mysql_query("ALTER DATABASE tulkojumi CHARACTER SET utf8;");
-	mysql_query("SET NAMES utf8");
-	mysql_query("SET CHARACTER SET utf8");
-	mysql_select_db('tulkojumi',$db_con);
-	foreach(preg_split("/((\r?\n)|(\r\n?))/", $tteksts) as $line)
-	{
-		$sk=$sk+1;
-		$skk=$sk%5;
-		if ($skk==1)
-		$lv=$line;
-		if ($skk==2)
-		$en=$line;
-		if ($skk==3)
-		$ru=$line;
-		if ($skk==4)
-		$kat=$line;
-		$lv=trim($lv);
-		$en=trim($en);
-		$ru=trim($ru);
-		$kat=trim($kat);
-		if ($skk==4)
+		$tteksts=$_POST["tulkojums"];
+		$tskaits=substr_count($tteksts,"\n");
+		$sk=0;
+		$db_con = mysql_connect('localhost','root','1500447707');
+		if (!isset($db_con))
 		{
-			mysql_query("INSERT INTO vardi (lv,en,ru,kat) VALUES ('$lv','$en','$ru','$kat')");
-			$lv="";
-			$en="";
-			$ru="";
-			$kat="";
+			alert("Kļūda: Neizdodas savienoties ar datubāzi!");
+			Exit();
+		}
+		mysql_query("ALTER DATABASE tulkojumi CHARACTER SET utf8;");
+		mysql_query("SET NAMES utf8");
+		mysql_query("SET CHARACTER SET utf8");
+		mysql_select_db('tulkojumi',$db_con);
+		foreach(preg_split("/((\r?\n)|(\r\n?))/", $tteksts) as $line)
+		{
+			$sk=$sk+1;
+			$skk=$sk%5;
+			if ($skk==1)
+			$lv=$line;
+			if ($skk==2)
+			$en=$line;
+			if ($skk==3)
+			$ru=$line;
+			if ($skk==4)
+			$kat=$line;
+			$lv=trim($lv);
+			$en=trim($en);
+			$ru=trim($ru);
+			$kat=trim($kat);
+			if ($skk==4)
+			{
+				mysql_query("INSERT INTO vardi (lv,en,ru,kat) VALUES ('$lv','$en','$ru','$kat')");
+				$lv="";
+				$en="";
+				$ru="";
+				$kat="";
+			}
 		}
 	}
+}
+else
+{
+	echo '<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />';
+	echo 'Jūs neesat autorizējies. Lūdzu, <a href="login">ielogojieties</a>!';
 }
 ?>
 </body>

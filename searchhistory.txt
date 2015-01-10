@@ -64,3 +64,12 @@
 09-01-2015 20:50:56	Teksts: a	Valoda: a	Tips: auto
 09-01-2015 20:53:15	Teksts: [td]smit	Valoda: a	Tips: regex
 09-01-2015 21:09:20	Teksts: a	Valoda: a	Tips: auto
+10-01-2015 20:25:13	Teksts: a	Valoda: a	Tips: auto
+10-01-2015 20:57:02	Teksts: a	Valoda: lv	Tips: auto
+10-01-2015 20:57:09	Teksts: e	Valoda: en	Tips: auto
+10-01-2015 20:57:20	Teksts: a	Valoda: a	Tips: skip
+10-01-2015 20:57:27	Teksts: g	Valoda: a	Tips: start
+10-01-2015 20:57:34	Teksts: z	Valoda: a	Tips: start
+10-01-2015 20:57:38	Teksts: d	Valoda: a	Tips: start
+10-01-2015 20:57:55	Teksts: ap|ed|es	Valoda: a	Tips: regex
+10-01-2015 23:11:16	Teksts: e	Valoda: a	Tips: auto

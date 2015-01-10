@@ -1,3 +1,12 @@
+<?php
+include_once 'includes/db_connect.php';
+include_once 'includes/functions.php';
+sec_session_start();
+?>
+<?php
+if(login_check($mysqli) == true)
+{
+echo <<< EOT
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,6 +17,8 @@
 <title>Labot tulkojumu</title>
 </head>
 <body>
+EOT;
+?>
 <?php
 $result="";
 $id="";
@@ -81,6 +92,12 @@ if(isset($_POST["meklet"]))
 	$ulv="";
 	$uen="";
 	$uru="";
+}
+}
+else
+{
+	echo '<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />';
+	echo 'Jūs neesat autorizējies. Lūdzu, <a href="login">ielogojieties</a>!';
 }
 ?>
 </body>

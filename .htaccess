@@ -1,4 +1,8 @@
-﻿DirectoryIndex search.php
+﻿RewriteEngine On
+DirectoryIndex search.php
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^([^/]*)$ search.php?id=$1 [L,QSA]
+
+RewriteRule ^info/([0-9]+) /info?id=$1
+
