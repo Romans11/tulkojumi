@@ -11,11 +11,21 @@ echo <<< EOT
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="css/style.css">
 <style>
 .t_tabula{text-align:right;}
 </style>
 <title>Importēt tulkojumus</title>
 </head>
+<div class="izvelne"
+	<ul class="izvelne">
+	<li><a href="search">Sākums</a></li>
+	<li><a href="import">Importēt</a></li>
+	<li><a href="all">Viss</a></li>
+	<li><a href="categories">Kategorijas</a></li>
+	<li><a href="login">Ienākt/reģistrēties</a></li>
+	</ul><br/><br/>
+</div>
 <body OnLoad="document.t.tulkojums.focus();">
 <div id = "vidus">
 <form name="t" action = "import.php" method = "post" enctype="multipart/form-data"><br/>
@@ -23,7 +33,6 @@ echo <<< EOT
 	Pievienošanas kārtība: 1) LV ; 2) EN ; 3) RU ; 4) Kategorija ; 5) Tukša rinda<br/><br/>
 	<textarea name="tulkojums" rows=25 cols=150></textarea><br/>
 	<center><input type = "submit" value = "Pievienot" name = "saglabat" style="width: 100px ; height: 50px"><br/><br/><br/>
-	Vairāk: <a href="all">Visi tulkojumi</a> | <a href="search">Meklēt tulkojumus</a></center>
 </form>
 </div>
 EOT;

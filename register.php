@@ -10,8 +10,18 @@ include_once 'includes/functions.php';
         <script type="text/JavaScript" src="js/sha512.js"></script> 
         <script type="text/JavaScript" src="js/forms.js"></script>
         <link rel="stylesheet" href="styles/main.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
     <body>
+	<div class="izvelne"
+	<ul class="izvelne">
+	<li><a href="search">Sākums</a></li>
+	<li><a href="import">Importēt</a></li>
+	<li><a href="all">Viss</a></li>
+	<li><a href="categories">Kategorijas</a></li>
+	<li><a href="login">Ienākt/reģistrēties</a></li>
+	</ul><br/><br/>
+</div>
         <h1>Reģistrējieties</h1>
         <?php
         if (!empty($error_msg)) {

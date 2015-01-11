@@ -73,3 +73,10 @@
 10-01-2015 20:57:38	Teksts: d	Valoda: a	Tips: start
 10-01-2015 20:57:55	Teksts: ap|ed|es	Valoda: a	Tips: regex
 10-01-2015 23:11:16	Teksts: e	Valoda: a	Tips: auto
+10-01-2015 23:53:03	Teksts: a	Valoda: a	Tips: auto
+10-01-2015 23:54:01	Teksts: a	Valoda: a	Tips: auto
+11-01-2015 00:10:56	Teksts: 	Valoda: 	Tips: 
+11-01-2015 00:10:58	Teksts: 	Valoda: 	Tips: 
+11-01-2015 00:11:02	Teksts: 	Valoda: 	Tips: 
+11-01-2015 19:09:17	Teksts: 	Valoda: 	Tips: 
+11-01-2015 19:17:22	Teksts: ?	Valoda: a	Tips: auto

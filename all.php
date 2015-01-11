@@ -1,10 +1,20 @@
 <!DOCTYPE html>
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="css/style.css">
 <style>
 .t_tabula{text-align:right;}
 </style>
 <title>Visi tulkojumi</title>
 </head><body>
+<div class="izvelne"
+	<ul class="izvelne">
+	<li><a href="search">Sākums</a></li>
+	<li><a href="import">Importēt</a></li>
+	<li><a href="all">Viss</a></li>
+	<li><a href="categories">Kategorijas</a></li>
+	<li><a href="login">Ienākt/reģistrēties</a></li>
+	</ul><br/><br/>
+</div>
 <br/><center><h2>Visi tulkojumi</h2></center><br/>
 <?php
 $db_con = mysql_connect('localhost','root','1500447707');
@@ -26,7 +36,5 @@ echo "</table>";
 echo("<br/>Tulkojumu skaits: $skaits");
 mysql_close($db_con);
 ?>
-<br/><br/>
-Vairāk: <a href="search">Meklēt tulkojumus</a> | <a href="import">Importēt tulkojumus</a>
 <br/><br/>
 </body></html>

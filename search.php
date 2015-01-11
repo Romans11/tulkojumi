@@ -2,6 +2,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="css/style.css">
 <style>
 .t_tabula{text-align:right;}
 </style>
@@ -56,6 +57,15 @@ document.meklesana.mekl.value=car;
 }
 </script>
 <body OnLoad="document.meklesana.mekl.focus();">
+<div class="izvelne"
+	<ul class="izvelne">
+	<li><a href="search">Sākums</a></li>
+	<li><a href="import">Importēt</a></li>
+	<li><a href="all">Viss</a></li>
+	<li><a href="categories">Kategorijas</a></li>
+	<li><a href="login">Ienākt/reģistrēties</a></li>
+	</ul><br/><br/>
+</div>
 <form name="meklesana" action = "search.php" method = "post" enctype="multipart/form-data">
 	<br/><b>Valoda:</b><br/>
 	<input type="radio" name="valoda" value="a" checked>Viss 
@@ -73,8 +83,7 @@ document.meklesana.mekl.value=car;
 	<input type = "text" name = "mekl" size = "100" maxlength = "255">
 	<input type="button" value="|" onclick="alpha(&#39;|&#39;)"/>
 	<input type="button" value="\" onclick="alpha(&#39;\\&#39;)"/>
-	<br/>
-	<br/>Vairāk: <a href="all">Visi tulkojumi</a> | <a href="import">Importēt tulkojumus</a> | <a href="includes/logout.php">Iziet</a><br/><br/>
+	<br/><br/>
 	<input type = "submit" value = "Meklēt" name = "meklet" style="width: 100px ; height: 40px"><br/><br/>
 </form>
 <?php

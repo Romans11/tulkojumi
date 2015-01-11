@@ -2,6 +2,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="css/style.css">
 <style>
 .t_tabula{text-align:right;}
 </style>
@@ -16,6 +17,15 @@ document.meklesana.mekl.value=car;
 }
 </script>
 <body>
+<div class="izvelne"
+	<ul class="izvelne">
+	<li><a href="search">Sākums</a></li>
+	<li><a href="import">Importēt</a></li>
+	<li><a href="all">Viss</a></li>
+	<li><a href="categories">Kategorijas</a></li>
+	<li><a href="login">Ienākt/reģistrēties</a></li>
+	</ul><br/><br/>
+</div>
 <form name="meklesana" action = "categories.php" method = "post" enctype="multipart/form-data">
 <br/><br>
 Izvēlieties kategoriju:<br/>

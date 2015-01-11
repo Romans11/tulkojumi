@@ -7,11 +7,21 @@ sec_session_start();
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <title>Drošā ielogošanās</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+        <title>Ielogošanās</title>
         <link rel="stylesheet" href="styles/main.css" />
     </head>
     <body>
+		<div class="izvelne"
+	<ul class="izvelne">
+	<li><a href="search">Sākums</a></li>
+	<li><a href="import">Importēt</a></li>
+	<li><a href="all">Viss</a></li>
+	<li><a href="categories">Kategorijas</a></li>
+	<li><a href="login">Ienākt/reģistrēties</a></li>
+	</ul><br/><br/>
+</div>
         <?php if (login_check($mysqli) == true) : ?>
             <p>Sveiki, <?php echo htmlentities($_SESSION['username']); ?>!</p>
             <p>
