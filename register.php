@@ -13,7 +13,7 @@ include_once 'includes/functions.php';
 		<link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
     <body>
-	<div class="izvelne"
+	<div class="izvelne">
 	<ul class="izvelne">
 	<li><a href="search">Sākums</a></li>
 	<li><a href="import">Importēt</a></li>

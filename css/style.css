@@ -12,14 +12,14 @@ div.izvelne a {
     width: 6em;
     text-decoration: none;
     color: white;
-    background-color: purple;
+    background-color: #345;
     padding: 0.2em 0.6em;
     border-right: 1px solid white;
 }
 
 div.izvelne a:hover 
 {
-    background-color: fuchsia;
+    background-color: #187;
 }
 
 div.izvelne li 

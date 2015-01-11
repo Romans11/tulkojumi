@@ -21,7 +21,7 @@ if (login_check($mysqli) == true) {
 		<link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
     <body OnLoad="document.login_form.email.focus();">
-	<div class="izvelne"
+	<div class="izvelne">
 	<ul class="izvelne">
 	<li><a href="search">Sākums</a></li>
 	<li><a href="import">Importēt</a></li>

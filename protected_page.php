@@ -13,7 +13,7 @@ sec_session_start();
         <link rel="stylesheet" href="styles/main.css" />
     </head>
     <body>
-		<div class="izvelne"
+		<div class="izvelne">
 	<ul class="izvelne">
 	<li><a href="search">Sākums</a></li>
 	<li><a href="import">Importēt</a></li>

@@ -8,59 +8,7 @@
 07-01-2015 18:48:30	Teksts: e	Valoda: a	Tips: auto
 07-01-2015 21:07:20	Teksts: a	Valoda: a	Tips: auto
 09-01-2015 15:31:30	Teksts: a	Valoda: a	Tips: auto
-09-01-2015 19:27:40	Teksts: 	Valoda: 	Tips: 
-09-01-2015 19:30:13	Teksts: 	Valoda: 	Tips: 
-09-01-2015 19:30:55	Teksts: 	Valoda: 	Tips: 
-09-01-2015 19:30:58	Teksts: 	Valoda: 	Tips: 
 09-01-2015 19:33:09	Teksts: sv	Valoda: a	Tips: auto
-09-01-2015 19:34:16	Teksts: 	Valoda: 	Tips: 
-09-01-2015 19:34:18	Teksts: 	Valoda: 	Tips: 
-09-01-2015 19:34:21	Teksts: 	Valoda: 	Tips: 
-09-01-2015 19:35:31	Teksts: 	Valoda: 	Tips: 
-09-01-2015 19:35:52	Teksts: 	Valoda: 	Tips: 
-09-01-2015 19:37:16	Teksts: 	Valoda: 	Tips: 
-09-01-2015 19:38:39	Teksts: 	Valoda: 	Tips: 
-09-01-2015 19:38:49	Teksts: 	Valoda: 	Tips: 
-09-01-2015 19:38:52	Teksts: 	Valoda: 	Tips: 
-09-01-2015 19:38:56	Teksts: 	Valoda: 	Tips: 
-09-01-2015 19:53:52	Teksts: 	Valoda: 	Tips: 
-09-01-2015 19:56:59	Teksts: 	Valoda: 	Tips: 
-09-01-2015 19:57:02	Teksts: 	Valoda: 	Tips: 
-09-01-2015 19:57:44	Teksts: 	Valoda: 	Tips: 
-09-01-2015 19:57:52	Teksts: 	Valoda: 	Tips: 
-09-01-2015 19:57:55	Teksts: 	Valoda: 	Tips: 
-09-01-2015 19:57:57	Teksts: 	Valoda: 	Tips: 
-09-01-2015 19:59:14	Teksts: 	Valoda: 	Tips: 
-09-01-2015 19:59:17	Teksts: 	Valoda: 	Tips: 
-09-01-2015 20:06:00	Teksts: 	Valoda: 	Tips: 
-09-01-2015 20:26:19	Teksts: 	Valoda: 	Tips: 
-09-01-2015 20:26:56	Teksts: 	Valoda: 	Tips: 
-09-01-2015 20:26:59	Teksts: 	Valoda: 	Tips: 
-09-01-2015 20:27:01	Teksts: 	Valoda: 	Tips: 
-09-01-2015 20:27:03	Teksts: 	Valoda: 	Tips: 
-09-01-2015 20:27:05	Teksts: 	Valoda: 	Tips: 
-09-01-2015 20:27:11	Teksts: 	Valoda: 	Tips: 
-09-01-2015 20:27:14	Teksts: 	Valoda: 	Tips: 
-09-01-2015 20:28:11	Teksts: 	Valoda: 	Tips: 
-09-01-2015 20:28:15	Teksts: 	Valoda: 	Tips: 
-09-01-2015 20:28:17	Teksts: 	Valoda: 	Tips: 
-09-01-2015 20:28:20	Teksts: 	Valoda: 	Tips: 
-09-01-2015 20:28:23	Teksts: 	Valoda: 	Tips: 
-09-01-2015 20:28:26	Teksts: 	Valoda: 	Tips: 
-09-01-2015 20:28:54	Teksts: 	Valoda: 	Tips: 
-09-01-2015 20:28:57	Teksts: 	Valoda: 	Tips: 
-09-01-2015 20:28:59	Teksts: 	Valoda: 	Tips: 
-09-01-2015 20:39:57	Teksts: 	Valoda: 	Tips: 
-09-01-2015 20:40:00	Teksts: 	Valoda: 	Tips: 
-09-01-2015 20:40:02	Teksts: 	Valoda: 	Tips: 
-09-01-2015 20:40:04	Teksts: 	Valoda: 	Tips: 
-09-01-2015 20:40:07	Teksts: 	Valoda: 	Tips: 
-09-01-2015 20:40:09	Teksts: 	Valoda: 	Tips: 
-09-01-2015 20:40:11	Teksts: 	Valoda: 	Tips: 
-09-01-2015 20:40:14	Teksts: 	Valoda: 	Tips: 
-09-01-2015 20:40:16	Teksts: 	Valoda: 	Tips: 
-09-01-2015 20:40:19	Teksts: 	Valoda: 	Tips: 
-09-01-2015 20:40:21	Teksts: 	Valoda: 	Tips: 
 09-01-2015 20:50:56	Teksts: a	Valoda: a	Tips: auto
 09-01-2015 20:53:15	Teksts: [td]smit	Valoda: a	Tips: regex
 09-01-2015 21:09:20	Teksts: a	Valoda: a	Tips: auto
@@ -75,8 +23,4 @@
 10-01-2015 23:11:16	Teksts: e	Valoda: a	Tips: auto
 10-01-2015 23:53:03	Teksts: a	Valoda: a	Tips: auto
 10-01-2015 23:54:01	Teksts: a	Valoda: a	Tips: auto
-11-01-2015 00:10:56	Teksts: 	Valoda: 	Tips: 
-11-01-2015 00:10:58	Teksts: 	Valoda: 	Tips: 
-11-01-2015 00:11:02	Teksts: 	Valoda: 	Tips: 
-11-01-2015 19:09:17	Teksts: 	Valoda: 	Tips: 
 11-01-2015 19:17:22	Teksts: ?	Valoda: a	Tips: auto

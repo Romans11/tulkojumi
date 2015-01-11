@@ -36,9 +36,9 @@ CREATE TABLE `vardi` (
 
 INSERT INTO `vardi` VALUES (1, 'Sveiki!', 'Hello!', 'Привет!', '.i');
 INSERT INTO `vardi` VALUES (2, 'Prieks jūs redzēt.', 'Nice to meet you.', 'Приятно вас видеть.', '.o');
-INSERT INTO `vardi` VALUES (3, 'Kā jūs jūtaties?', 'How are you (how do you feel)?', 'Как вы себя чувствуете?', '.o');
-INSERT INTO `vardi` VALUES (4, 'Kā jums klājas?', 'How are you?', 'Как ваши дела?', '.o');
-INSERT INTO `vardi` VALUES (5, 'Cik jums gadu?', 'How old are you?', 'Сколько вам лет?', '.o');
+INSERT INTO `vardi` VALUES (3, 'Kā jūs jūtaties?', 'How are you (how do you feel)?', 'Как вы себя чувствуете?', '.o?j');
+INSERT INTO `vardi` VALUES (4, 'Kā jums klājas?', 'How are you?', 'Как ваши дела?', '.o?j');
+INSERT INTO `vardi` VALUES (5, 'Cik jums gadu?', 'How old are you?', 'Сколько вам лет?', '.o?j');
 INSERT INTO `vardi` VALUES (6, 'Labdien!', 'Good afternoon!', 'Добрый день!', '.o');
 INSERT INTO `vardi` VALUES (7, 'uzredzēšanos!', 'good bye!', 'до свидания!', '.o');
 INSERT INTO `vardi` VALUES (8, 'Labvakar!', 'Good evening!', 'Добрый вечер!', '.o');

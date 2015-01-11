@@ -17,7 +17,7 @@ document.meklesana.mekl.value=car;
 }
 </script>
 <body>
-<div class="izvelne"
+<div class="izvelne">
 	<ul class="izvelne">
 	<li><a href="search">Sākums</a></li>
 	<li><a href="import">Importēt</a></li>
